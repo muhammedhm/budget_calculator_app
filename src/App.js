@@ -8,18 +8,6 @@ import FinancialSummary from './components/FinancialSummary';
 
 const App = () => {
   return (
-    <BudgetProvider>
-      <div className="container mx-auto p-6">
-        <div className="grid gap-6 md:grid-cols-3">
-          {/* Balance Section */}
-          <div className="md:col-span-3">
-            <Balance />
-          </div>
-
-          {/* Add Transaction Form */}
-          <div className="md:col-span-1 bg-white p-6 shadow rounded-lg">
-            <AddTransaction />
-          </div>
 
           {/* Transaction History */}
           <div className="md:col-span-1 bg-white p-6 shadow rounded-lg">
@@ -34,6 +22,19 @@ const App = () => {
       </div>
     </BudgetProvider>
   );
+<BudgetProvider>
+      <div className="container mx-auto p-6">
+        <div className="grid gap-6 md:grid-cols-3">
+          {/* Balance Section */}
+          <div className="md:col-span-3">
+            <Balance />
+          </div<BudgetProvider>
+      <div className="container mx-auto p-6">
+        <div className="grid gap-6 md:grid-cols-3">
+          {/* Balance Section */}
+          <div className="md:col-span-3">
+            <Balance />
+          </div
 };
 
 export default App;
