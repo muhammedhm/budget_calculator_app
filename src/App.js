@@ -7,6 +7,7 @@ import TransactionHistory from './components/TransactionHistory';
 import FinancialSummary from './components/FinancialSummary';
 
 const App = () => {
+  console.log("Hello World");
   return (
 
           {/* Transaction History */}
